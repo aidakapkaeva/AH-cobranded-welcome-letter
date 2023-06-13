@@ -1,0 +1,11 @@
+.page {
+  width: 816px;
+  height: 1056px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 0 auto;
+  font-family: 'neue-haas-unica', 'utile-display', 'Arial', 'Helvetica', sans-serif;
+  color: #002855;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
