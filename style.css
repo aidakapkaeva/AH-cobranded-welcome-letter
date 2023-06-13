@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+img {
+  border-style: none;
+}
+
+.page {
+  max-width: 816px;
+  height: 1056px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 0 auto;
+  font-family: 'neue-haas-unica', 'utile-display', 'Arial', 'Helvetica', sans-serif;
+  color: #002855;
+}
+
+.header {
+}
+
+.header__bar {
+  display: block;
+  width: 100%;
+  height: 12px;
+  background-image: url('../AH-cobranded-welcome-letter/images/top-bar-teal.svg');
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  opacity: 1;
+  background-position: center;
+}
+
+.logo {
+  width: 327px;
+  height: 24px;
+  margin: 35px 72px 0;
+}
+
+.content {
+  display: flex;
+  margin: 0;
+  padding: 0 72px;
+  height: 977px;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.letter {
+  margin-top: 64px;
+}
+
+.letter__body {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-block-start: 0;
+}
+
+.letter__subtitle {
+  font-family: 'Utile Display';
+  font-weight: 600;
+  margin-block-end: 4px;
+}
+
+.letter__body_accent {
+  color: #F06437;
+}
+
+.letter__list {
+  font-size: 14px;
+  margin-block-start: 0;
+}
+
+.letter__list_item {
+  font-size: 14px;
+}
+
+.letter__sign {
+  font-size: 14px;
+  letter-spacing: 1.2;
+  margin: 0;
+}
+
+.letter__sign_image {
+  height: 44px;
+}
+
+.letter__qr {
+  margin: 30px 12px 0 0;
+  height: 44px;
+}
+
+.letter__slogan {
+  height: 44px;
+}
+
+.footer {
+  max-width: 816px;
+  margin-bottom: 35px;
+}
+
+.footer__body {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-block-end: 0;
+}
