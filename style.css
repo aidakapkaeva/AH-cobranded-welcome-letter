@@ -1,3 +1,22 @@
+@import url(../AH-cobranded-welcome-letter/fonts/UtileDisplay-Semibold.otf);
+@import url(../AH-cobranded-welcome-letter/fonts/NeueHaasUnica-Regular.ttf);
+
+@font-face {
+  font-family: 'Utile-Display';
+  src:
+    url('/fonts/UtileDisplay-Semibold.otf') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue-Haas-Unica';
+  src:
+    url('/fonts/NeueHaasUnica-Regular.ttf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
 }
@@ -12,7 +31,7 @@ img {
   box-sizing: border-box;
   background-color: #ffffff;
   margin: 0 auto;
-  font-family: 'neue-haas-unica', 'utile-display', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Neue-Haas-Unica', 'Arial', 'Helvetica', sans-serif;
   color: #002855;
 }
 
@@ -53,7 +72,7 @@ img {
 }
 
 .letter__subtitle {
-  font-family: 'Utile Display';
+  font-family: 'Utile-Display';
   font-weight: 600;
   margin-block-end: 4px;
 }
