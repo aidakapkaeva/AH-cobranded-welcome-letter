@@ -1,3 +1,22 @@
+@import url('https://drive.google.com/uc?export=view&id=1s95Rx87g1f2j4JWGEAJK_kPkSSPdOQEu');
+@import url('https://drive.google.com/uc?export=view&id=1N1ez5oV63Uib2K_34l-ehdZc8-mSBZbG');
+
+@font-face {
+  font-family: 'Utile-Display';
+  src:
+    url('https://drive.google.com/uc?export=view&id=1s95Rx87g1f2j4JWGEAJK_kPkSSPdOQEu') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue-Haas-Unica';
+  src:
+    url('https://drive.google.com/uc?export=view&id=1N1ez5oV63Uib2K_34l-ehdZc8-mSBZbG') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
 }
@@ -12,7 +31,7 @@ img {
   box-sizing: border-box;
   background-color: #ffffff;
   margin: 0 auto;
-  font-family: 'neue-haas-unica', 'utile-display', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Neue-Haas-Unica', 'Arial', 'Helvetica', sans-serif;
   color: #002855;
 }
 
@@ -53,7 +72,7 @@ img {
 }
 
 .letter__subtitle {
-  font-family: 'Utile Display';
+  font-family: 'Utile-Display';
   font-weight: 600;
   margin-block-end: 4px;
 }
