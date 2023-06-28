@@ -16,8 +16,7 @@
   font-weight: 400;
   font-style: normal;
 } */
-
-body {
+body, p {
   margin: 0;
 }
 
@@ -46,7 +45,6 @@ img {
 }
 
 .logo {
-  width: 327px;
   height: 24px;
   margin: 35px 72px 0;
 }
@@ -66,9 +64,9 @@ img {
 }
 
 .letter__body {
-  font-size: 14px;
-  line-height: 1.2;
-  margin-block-start: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 16px;
 }
 
 .letter__subtitle {
@@ -82,30 +80,23 @@ img {
 }
 
 .letter__list {
-  font-size: 14px;
   margin-block-start: 0;
 }
 
-.letter__list_item {
-  font-size: 14px;
+.letter__container-incentive-card {
+  display: flex;
+}
+
+.letter__incentive-card {
+  margin: 0 14px 0 0;
+  height: 112px;
 }
 
 .letter__sign {
-  font-size: 14px;
-  letter-spacing: 1.2;
-  margin: 0;
+  margin-top: 24px;
 }
 
 .letter__sign_image {
-  height: 44px;
-}
-
-.letter__qr {
-  margin: 30px 12px 0 0;
-  height: 44px;
-}
-
-.letter__slogan {
   height: 44px;
 }
 
